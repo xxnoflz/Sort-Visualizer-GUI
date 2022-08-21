@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{48faf174-d031-4457-b636-0662a734fb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\SortVisualize GUI">
+      <UniqueIdentifier>{04a81bdf-5568-44e7-853c-aef85e72899c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\SortVisualize GUI\SortVisualizer OpenGL">
+      <UniqueIdentifier>{567bb9f1-3b8b-479f-84df-2250b1cce7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\SortVisualize GUI\SortVisualizer OpenGL\Objects">
+      <UniqueIdentifier>{648e1b47-62ae-49f6-bb63-366b3d3ec5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\SortVisualize GUI\SortVisualizer OpenGL\Render">
+      <UniqueIdentifier>{a063191c-60dc-4ac9-b2c3-b9a6c503ea94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\SortVisualize GUI\SortVisualizer OpenGL\Utilities">
+      <UniqueIdentifier>{f8c74da1-f31d-49ac-b755-c68c84f79ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\SortVisualize GUI\SortVisualizer OpenGL\Shaders">
+      <UniqueIdentifier>{9f83f348-e463-4acb-98b6-b51f6452bb69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\SortVisualize GUI\SortVisualizer OpenGL\Visualizer">
+      <UniqueIdentifier>{a92b7d59-2198-4f3b-9a72-dd9d72a64be8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SortVisualizer GUI\SortVisualizerGUI.cpp">
+      <Filter>source\SortVisualize GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SortVisualizer GUI\SortVisualizer\Objects\CollumnArrayObject.cpp">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SortVisualizer GUI\SortVisualizer\Objects\SortObject.cpp">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SortVisualizer GUI\SortVisualizer\Render\quadRenderer.cpp">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SortVisualizer GUI\SortVisualizer\Utilities\ResourceManager.cpp">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SortVisualizer GUI\SortVisualizer\Utilities\Shader.cpp">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SortVisualizer GUI\SortVisualizer\Visualizer\SortVisualizer.cpp">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Visualizer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="source\SortVisualizer GUI\SortVisualizerGUI.h">
+      <Filter>source\SortVisualize GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="source\SortVisualizer GUI\SortVisualizer\Visualizer\SortVisualizer.h">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Visualizer</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="source\SortVisualizer GUI\SortVisualizerGUI.qrc">
+      <Filter>source\SortVisualize GUI</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="source\SortVisualizer GUI\SortVisualizerGUI.ui">
+      <Filter>source\SortVisualize GUI</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\SortVisualizer GUI\SortVisualizer\Objects\CollumnArrayObject.h">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SortVisualizer GUI\SortVisualizer\Render\quadRenderer.h">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SortVisualizer GUI\SortVisualizer\Utilities\ResourceManager.h">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SortVisualizer GUI\SortVisualizer\Utilities\Shader.h">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SortVisualizer GUI\SortVisualizer\Objects\SortObject.h">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\SortVisualizer GUI\SortVisualizer\Shaders\quadShader.frag">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Shaders</Filter>
+    </None>
+    <None Include="source\SortVisualizer GUI\SortVisualizer\Shaders\quadShader.vert">
+      <Filter>source\SortVisualize GUI\SortVisualizer OpenGL\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
